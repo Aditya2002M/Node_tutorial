@@ -106,3 +106,7 @@ app.listen(PORT, () => {
     // Log a message to the console indicating the server has started
     console.log(`server started at PORT :${PORT}`);
 });
+
+
+//adding comment-notes for each lines
+
