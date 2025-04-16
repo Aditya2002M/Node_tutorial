@@ -5,13 +5,9 @@ const router =express.Router()
 const person = require('../models/person');
 
 
-
-router.get('/', (req, res) => {
-    // Send a simple response message when the root route is accessed
-    res.send(`hello i am server`);
-});
-
-
+// router.get('/',(req,res)=>{
+//     res.send("welcome to server")
+// })
 router.get('/person',async(req,res)=>{
     try {
         const data = await person.find();
