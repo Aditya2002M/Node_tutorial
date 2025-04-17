@@ -2,7 +2,7 @@ const passport = require('passport'); // Correct import
 const LocalStrategy = require('passport-local').Strategy; // Correct strategy
 const person =require('./models/person')
 
-
+// use user-password authentication
 passport.use( new LocalStrategy(async(USERNAME,password,done)=>{
 
     try {
